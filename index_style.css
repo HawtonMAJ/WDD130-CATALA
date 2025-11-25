@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+header{
+    background-color: #9df5df;
+    color: #4cb944;
+    font-family: "Rubik";
+    border-bottom: solid 5px #47c065;
+    border-top: solid 10px #000000;
+    display: grid;
+    grid-template-columns:3fr .5fr 1fr 1fr 1fr .5fr 3fr;
+    text-align: center;
+}
+#logo{
+    grid-column: 1/2;
+}
+#logo, img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+#homebutton{
+    grid-column: 3/4;
+    align-self: center;
+}
+#homebutton:hover{
+    background-color: #47c065;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#aboutbutton{
+    grid-column: 4/5;
+    align-self: center;
+}
+#aboutbutton:hover{
+    background-color: #47c065;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#contactbutton{
+    grid-column: 5/6;
+    align-self: center;
+}
+#contactbutton:hover{
+    background-color: #47c065;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+body{
+    margin: 0px;
+}
