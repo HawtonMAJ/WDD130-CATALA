@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 header{
     background-color: #9df5df;
-    color: #4cb944;
     font-family: "Rubik";
     border-bottom: solid 5px #47c065;
     border-top: solid 10px #000000;
@@ -20,6 +19,8 @@ header{
 #homebutton{
     grid-column: 3/4;
     align-self: center;
+    text-decoration: none;
+    color: #4cb944;
 }
 #homebutton:hover{
     background-color: #47c065;
@@ -30,6 +31,8 @@ header{
 #aboutbutton{
     grid-column: 4/5;
     align-self: center;
+    text-decoration: none;
+    color: #4cb944;
 }
 #aboutbutton:hover{
     background-color: #47c065;
@@ -40,6 +43,8 @@ header{
 #contactbutton{
     grid-column: 5/6;
     align-self: center;
+    text-decoration: none;
+    color: #4cb944;
 }
 #contactbutton:hover{
     background-color: #47c065;
