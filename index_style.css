@@ -62,6 +62,18 @@ body{
 .heading{
     font-family: "Rubik";
 }
+.advantages{
+    margin-top: 15vh;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,200px);
+    column-gap: 5vw;
+    row-gap: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+    justify-self: center;
+}
 footer{
     text-align: center;
     height: 8vh;
